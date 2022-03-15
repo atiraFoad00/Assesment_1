@@ -1,0 +1,131 @@
+/*************************************TAG SELECTORS***********************/
+h1 {
+  font-size: 3rem;
+  font-family: 'Montserrat-Black';
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Montserrat-Bold';
+  line-height: 1.5;
+}
+
+/*#title {
+  background-color: #D3DEDC;
+}*/
+/*************************************CLASS SELECTORS*************************/
+.topnav {
+  overflow: hidden;
+  background-color: #7897AB;
+  color: black;
+}
+
+.topnav a {
+  float: left;
+  font-family: 'Montserrat-Black';
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav-right {
+  float: right;
+  color: black;
+}
+
+
+
+/* slideshow Section*/
+#slideshow {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FFEFEF;
+}
+
+.slideshow-image {
+  width: 70%;
+  margin: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: Arial, Helvatica, sans sans-serif;
+}
+
+/*.box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background:#ccc;*
+}*/
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+/*.box{
+  flex: 1 1 100px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .3);
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.box .image{
+  padding: 10px;
+  background: #eee;
+  text-align: center;
+}
+
+.box .image img{
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+  filter: drop-shadow(0 3px 5px rgba(0,0,0,0.7));
+}
+
+.box .info .title{
+  padding:10px;
+  color:#666;
+  font-size: 20px;
+}
+
+.box .info .subInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-top: 1px solid rgba(0,0,0,.3);
+}
+
+.box .info .subInfo .price{
+  color: #ff3300;
+  font-size: 20px;
+}
+
+.box .info .subInfo .cart i{
+  color: orange;
+  font-size: 17px;
+
+}*/
